@@ -52,5 +52,5 @@ if __name__ == '__main__':
 	print "Please enter your string: "
 	sys.stdout.flush()
 	strings = raw_input()
-	enc = authcode(strings, "viuaskjfioweflxzfjkhwefosp")
+	enc = authcode(strings, key.key)
 	print "The cipher is: " + enc
